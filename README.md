@@ -15,7 +15,8 @@
     - `conda upgrade conda`
     - if you already have python installed, run `conda create -n s4 python`. otherwise, run `conda create -n s4 python=3.7`
     - `conda activate s4`
-    - `conda install -c paulgoulain s4`
+    - `conda install -c paulgoulain s4` ### this no longer works
+    - `conda install -c marcus-o s4 `
 - Test the installation by running:
     - `python`
     - `import S4 as S4` (capitalization matters)
